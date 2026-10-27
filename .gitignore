@@ -1,0 +1,106 @@
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables and secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# =========================
+# AI models and large files
+# =========================
+*.gguf
+*.ggml
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.tflite
+*.engine
+models/
+checkpoints/
+
+# =========================
+# Temporary files and logs
+# =========================
+*.log
+logs/
+tmp/
+temp/
+cache/
+.cache/
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =========================
+# IDE and editor settings
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Testing and code coverage
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Audio files and recordings
+# =========================
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# =========================
+# Build and distribution files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Local configuration
+# =========================
+*.local
